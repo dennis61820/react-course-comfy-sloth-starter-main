@@ -26,7 +26,6 @@ const FeaturedProducts = () => {
       </div>
       <div className="section-center featured">
         {featured.map((product) => {
-          console.log(product.id);
           return <Product key={product.id} {...product} />;
         })}
       </div>
